@@ -7,7 +7,7 @@ const Customer = () => {
     const member = members.find((member) => member.id === params.id);
     
 return(
-<div className="detalhesempresa">
+<div className="detalhescliente">
   <h1>Detalhes do cliente</h1>
   <p>
     Nome: {member && member.name}
